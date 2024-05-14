@@ -9,4 +9,9 @@ services:
       - '3000:3000'
     volumes:
       - .:/usr/src/app
+      - nodemodules:/usr/src/app/node_modules
+  mongo:
+    image: mongo
+volumes:
+  nodemodules: {}
         
