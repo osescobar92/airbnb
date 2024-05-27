@@ -17,6 +17,7 @@ import * as Joi from 'joi';
             MONGODB_URI: Joi.string().required(),
             JWT_SECRET: Joi.string().required(),
             JWT_EXPIRATION: Joi.number().required(),
+            PORT: Joi.number().required()
         })
     }),
     JwtModule.registerAsync({
