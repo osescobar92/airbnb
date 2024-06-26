@@ -29,7 +29,7 @@ import { ClientsModule, Transport } from '@nestjs/microservices';
             useFactory: (configService: ConfigService) => ({
                 transport: Transport.TCP,
                 options: {
-                    host: configService.get('AUTH_HOST'),
+                    host: '0.0.0.0',
                     port: configService.get('AUTH_PORT')
                 }
             }),
