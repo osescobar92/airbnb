@@ -37,3 +37,4 @@ lerna-debug.log*
 # Enviroment files
 /apps/auth/.env
 /apps/reservations/.env
+/apps/payments/.env

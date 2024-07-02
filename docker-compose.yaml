@@ -31,6 +31,3 @@ services:
       - '3003:3003'
   mongo:
     image: mongo
-
-volumes:
-  - airbnb_files
