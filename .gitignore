@@ -38,3 +38,4 @@ lerna-debug.log*
 /apps/auth/.env
 /apps/reservations/.env
 /apps/payments/.env
+/apps/notifications/.env
