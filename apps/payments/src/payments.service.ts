@@ -1,7 +1,6 @@
-import { CreateChargeDto, NOTIFICATIONS_SERVICE } from '@app/common';
+import { NOTIFICATIONS_SERVICE } from '@app/common';
 import { Inject, Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import { NotificationsService } from '../../notifications/src/notifications.service';
 import Stripe from 'stripe';    
 import { ClientProxy } from '@nestjs/microservices';
 import { PaymentsCreateChargeDto } from './dto/payments-create-charge.dto';
